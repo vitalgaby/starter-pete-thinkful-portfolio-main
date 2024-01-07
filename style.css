@@ -16,17 +16,26 @@ h3 {
   text-align: center;
 }
 
-.group {
-  display:flex;
-  flex-direction:row;
-  align-items:center;
+.group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.other-group{
+  display: flex;
+  flex-direction: row;
+}
+.item{
+  flex:1;
+   align-items: center;
+   margin: 5px;
 }
 
-.item {
-  flex:1;
-  align-items:center;
-  margin 1px;
+.font-size{
+  font-size: 14px;
 }
+
 
 /* Header */
 header {
